@@ -5,3 +5,8 @@ node_js:
 
 env:
   - MONGO_URI=mongodb+srv://casder:casder1503@cluster0.q9d6k.mongodb.net/?retryWrites=true&w=majority
+
+deploy:
+  - provider: heroku
+    api_key: "132bffe3-623c-460c-a83b-f36f7159e018"
+    app: m_users
