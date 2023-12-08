@@ -10,3 +10,5 @@ deploy:
   - provider: heroku
     api_key: "132bffe3-623c-460c-a83b-f36f7159e018"
     app: m_users
+    on:
+      all_branches: true
